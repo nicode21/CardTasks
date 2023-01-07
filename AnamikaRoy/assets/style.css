@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.all-body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  height: 260px;
+  border-radius: 10px ;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-part {
+  background-image: -webkit-gradient(linear,
+      right top,
+      left top,
+      color-stop(0.2, rgb(51, 110, 176)),
+      color-stop(0.8, rgb(16, 40, 118)));
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.image-box {
+  width: 145px;
+  height: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      color-stop(0.1, rgb(74, 74, 74)),
+      color-stop(0.2, rgb(243, 237, 205)),
+      color-stop(0.4, rgb(90, 90, 90)));
+  margin-bottom: 15px;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+}
+
+.name-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.job-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job {
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+
+.right-part {
+  width: 330px;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 25px;
+}
+
+.about-me-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 17px;
+}
+
+.about-me{
+  font-size: 21px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-box {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.contact-box div{
+  display: inline-block;
+}
+
+.email-title{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.email{
+  font-size: 17px;
+}
+
+.phone-box{
+  margin-left:35px;
+}
+
+.phone-title{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.phone{
+  font-size: 16px;
+}
+
+.media-links-box {
+  width: 330px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.media-links-box div{
+  background-image: -webkit-gradient(linear,
+      right top,
+      left top,
+      color-stop(0.2, rgb(51, 110, 176)),
+      color-stop(0.8, rgb(16, 40, 118)));
+      border-radius: 5px;
+      width: 50px;
+      height: 50px;
+      margin-left: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.media-links-box img{
+  width: 35px;
+  height: 35px;
+}
+
+
